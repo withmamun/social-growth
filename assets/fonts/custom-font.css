@@ -1,0 +1,627 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Black.woff2') format('woff2'),
+    url('Poppins-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-BlackItalic.woff2') format('woff2'),
+    url('Poppins-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Bold.woff2') format('woff2'),
+    url('Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-BoldItalic.woff2') format('woff2'),
+    url('Poppins-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-ExtraLight.woff2') format('woff2'),
+    url('Poppins-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-ExtraBoldItalic.woff2') format('woff2'),
+    url('Poppins-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-ExtraBold.woff2') format('woff2'),
+    url('Poppins-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-ExtraLightItalic.woff2') format('woff2'),
+    url('Poppins-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Italic.woff2') format('woff2'),
+    url('Poppins-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Light.woff2') format('woff2'),
+    url('Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-LightItalic.woff2') format('woff2'),
+    url('Poppins-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-MediumItalic.woff2') format('woff2'),
+    url('Poppins-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Medium.woff2') format('woff2'),
+    url('Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Regular.woff2') format('woff2'),
+    url('Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-SemiBoldItalic.woff2') format('woff2'),
+    url('Poppins-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-SemiBold.woff2') format('woff2'),
+    url('Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-ThinItalic.woff2') format('woff2'),
+    url('Poppins-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('Poppins-Thin.woff2') format('woff2'),
+    url('Poppins-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ArdelaEdgeX01-RegularItalic';
+  src: url('ArdelaEdgeX01-RegularItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-Black.woff2') format('woff2'),
+    url('ArdelaEdgeX01-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01-BlackOutline';
+  src: url('ArdelaEdgeX01-BlackOutline.woff2') format('woff2'),
+    url('ArdelaEdgeX01-BlackOutline.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-BlackItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01-BlackOutlineItalic';
+  src: url('ArdelaEdgeX01-BlackOutlineItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-BlackOutlineItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-ExtraBoldItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-Bold.woff2') format('woff2'),
+    url('ArdelaEdgeX01-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-BoldItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-ExtraLightItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-ExtraBold.woff2') format('woff2'),
+    url('ArdelaEdgeX01-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-ExtraLight.woff2') format('woff2'),
+    url('ArdelaEdgeX01-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-LightItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeItalicVariableX01';
+  src: url('ArdelaEdgeItalicVariableX01.woff2') format('woff2'),
+    url('ArdelaEdgeItalicVariableX01.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-Light.woff2') format('woff2'),
+    url('ArdelaEdgeX01-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-MediumItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-Regular.woff2') format('woff2'),
+    url('ArdelaEdgeX01-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-Medium.woff2') format('woff2'),
+    url('ArdelaEdgeX01-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-SemiBoldItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-ThinItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX01-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-Thin.woff2') format('woff2'),
+    url('ArdelaEdgeX01-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX01';
+  src: url('ArdelaEdgeX01-SemiBold.woff2') format('woff2'),
+    url('ArdelaEdgeX01-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-BlackItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeVariableX01';
+  src: url('ArdelaEdgeVariableX01.woff2') format('woff2'),
+    url('ArdelaEdgeVariableX01.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02-BlackOutlineItalic';
+  src: url('ArdelaEdgeX02-BlackOutlineItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-BlackOutlineItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-Bold.woff2') format('woff2'),
+    url('ArdelaEdgeX02-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-Black.woff2') format('woff2'),
+    url('ArdelaEdgeX02-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02-BlackOutline';
+  src: url('ArdelaEdgeX02-BlackOutline.woff2') format('woff2'),
+    url('ArdelaEdgeX02-BlackOutline.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-BoldItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-ExtraBold.woff2') format('woff2'),
+    url('ArdelaEdgeX02-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-ExtraBoldItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-ExtraLightItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-ExtraLight.woff2') format('woff2'),
+    url('ArdelaEdgeX02-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-ExtraBold.woff2') format('woff2'),
+    url('ArdelaEdgeX02-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeItalicVariableX02';
+  src: url('ArdelaEdgeItalicVariableX02.woff2') format('woff2'),
+    url('ArdelaEdgeItalicVariableX02.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-Light.woff2') format('woff2'),
+    url('ArdelaEdgeX02-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-LightItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-MediumItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-Medium.woff2') format('woff2'),
+    url('ArdelaEdgeX02-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02-RegularItalic';
+  src: url('ArdelaEdgeX02-RegularItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-SemiBoldItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-SemiBold.woff2') format('woff2'),
+    url('ArdelaEdgeX02-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-Regular.woff2') format('woff2'),
+    url('ArdelaEdgeX02-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-Thin.woff2') format('woff2'),
+    url('ArdelaEdgeX02-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeVariableX02';
+  src: url('ArdelaEdgeVariableX02.woff2') format('woff2'),
+    url('ArdelaEdgeVariableX02.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX02';
+  src: url('ArdelaEdgeX02-ThinItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX02-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX03';
+  src: url('ArdelaEdgeX03-LightItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX03-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX03';
+  src: url('ArdelaEdgeX03-ExtraLightItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX03-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX03';
+  src: url('ArdelaEdgeX03-ExtraLight.woff2') format('woff2'),
+    url('ArdelaEdgeX03-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX03';
+  src: url('ArdelaEdgeX03-Light.woff2') format('woff2'),
+    url('ArdelaEdgeX03-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ardela Edge';
+  src: url('ArdelaEdge-X03Regular.woff2') format('woff2'),
+    url('ArdelaEdge-X03Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX03';
+  src: url('ArdelaEdgeX03-ThinItalic.woff2') format('woff2'),
+    url('ArdelaEdgeX03-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ArdelaEdgeX03';
+  src: url('ArdelaEdgeX03-Thin.woff2') format('woff2'),
+    url('ArdelaEdgeX03-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

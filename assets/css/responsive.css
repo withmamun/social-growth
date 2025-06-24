@@ -1,0 +1,411 @@
+@media screen and (max-width: 1199px) {
+
+    .container {
+        max-width: 992px;
+    }
+
+    .header__logo a img {
+        width: 36px;
+    }
+
+    .common__btn {
+        font-size: 14px;
+    }
+
+    .header__wrap {
+        border-radius: 10px;
+        padding: 8px 16px;
+        border-width: 2px;
+    }
+
+    .hero__content h1 {
+        font-size: 65px;
+    }
+
+    .hero__social {
+        left: 10px;
+        top: -58px;
+        max-width: 170px;
+    }
+
+    .hero__social.social__two {
+        right: 10px;
+    }
+
+    .hero__area {
+        padding-bottom: 120px;
+    }
+
+    .feature__single h4 {
+        font-size: 22px;
+    }
+
+    .feature__single p {
+        font-size: 12px;
+    }
+
+    .feature__single img {
+        max-width: 80px;
+        margin-bottom: 10px;
+    }
+
+    .section__heading h2 {
+        font-size: 38px;
+    }
+
+    .section__heading {
+        max-width: 54%;
+    }
+
+    .about__info ul li h4 {
+        font-size: 18px;
+    }
+
+    .about__info ul li p {
+        font-size: 14px;
+    }
+
+    .service__card {
+        padding: 10px;
+    }
+
+    .service__card img {
+        max-height: 58px;
+    }
+
+    .service__card h4 {
+        font-size: 17px;
+    }
+
+    .service__card .common__btn {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+
+    .service__sp {
+        max-width: 64px;
+        left: 0;
+        top: 0;
+    }
+
+    .service__sp.sp2 {
+        right: 0;
+    }
+
+    .service__sp.sp4 {
+        right: 0;
+    }
+
+    .testimonial__main {
+        width: 635px;
+    }
+
+    .contact__sp {
+        max-width: 68px;
+    }
+
+    .cta__wrap h2 {
+        font-size: 38px;
+    }
+
+    .cta__wrap {
+        padding-inline: 100px;
+    }
+
+    .footer__bottombar span {
+        font-size: 14px;
+    }
+
+    .footer__topbar p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 768px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .hero__content h1 {
+        font-size: 50px;
+    }
+
+    .hero__area {
+        padding-top: 180px;
+    }
+
+    .feature__wrap {
+        gap: 10px;
+    }
+
+    .feature__single {
+        padding: 20px;
+    }
+
+    .section__heading h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .about__info ul li p {
+        font-size: 12px;
+    }
+
+    .service__main {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .pricing__main {
+        gap: 10px;
+    }
+
+    .pricing__card h4 {
+        font-size: 24px;
+    }
+
+    .pricing__card p {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .pricing__card {
+        padding: 24px;
+    }
+
+    .pricing__card h5 span {
+        font-size: 48px;
+    }
+
+    .pricing__card h5 {
+        font-size: 16px;
+        margin-top: -14px;
+    }
+
+    .pricing__card ul li {
+        font-size: 13px;
+    }
+
+    .testimonial__wrap {
+        display: unset;
+        grid-template-columns: unset;
+    }
+
+    .testimonial__main {
+        width: unset;
+    }
+
+    .testimonial__wrap .section__heading {
+        max-width: 62%;
+    }
+
+    .cta__wrap h2 {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .menu__open {
+        display: block;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .hero__content h1 {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    .hero__social {
+        max-width: 110px;
+        top: -20px;
+    }
+
+    .hero__play a {
+        width: 55px;
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .hero__area {
+        padding-top: 140px;
+        min-height: auto;
+        padding-bottom: 90px;
+    }
+
+    .feature__wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .feature__single:last-child {
+        margin-top: -24px;
+    }
+
+    .section__heading {
+        max-width: 75%;
+    }
+
+    .about__wrap {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .about__img img {
+        width: 50%;
+    }
+
+    .about__img {
+        text-align: center;
+    }
+
+    .pricing__main {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .contact__sp {
+        max-width: 39px;
+    }
+
+    .service__sp {
+        max-width: 46px;
+    }
+
+    .cta__wrap {
+        padding-inline: 40px;
+    }
+
+    .cta__wrap h2 {
+        font-size: 26px;
+    }
+
+    .footer__topbar p {
+        font-size: 12px;
+    }
+
+    .footer__bottombar span {
+        font-size: 12px;
+    }
+
+    .footer__bottombar {
+        border-width: 2px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .hero__social {
+        display: none;
+    }
+
+    .hero__content {
+        max-width: 100%;
+    }
+
+    .hero__content h1 {
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+
+    .common__btn {
+        font-size: 12px;
+    }
+
+    .hero__btn {
+        margin-top: 20px;
+    }
+
+    .feature__wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature__single:first-child {
+        margin-top: 0;
+    }
+
+    .feature__single:last-child {
+        margin-top: 0;
+    }
+
+    .section__heading {
+        max-width: 100%;
+    }
+
+    .section__heading h2 {
+        font-size: 22px;
+    }
+
+    .about__img img {
+        width: 70%;
+    }
+
+    .service__sp {
+        display: none;
+    }
+
+    .service__main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service__card h4 {
+        font-size: 15px;
+    }
+
+    .service__card img {
+        max-height: 44px;
+    }
+
+    .pricing__main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial__wrap .section__heading {
+        max-width: 100%;
+    }
+
+    .contact__sp {
+        display: none;
+    }
+
+    .contact__form {
+        max-width: 94%;
+    }
+
+    .cta__wrap {
+        padding-inline: 16px;
+    }
+
+    .cta__wrap h2 {
+        font-size: 22px;
+    }
+
+    .footer__topbar {
+        justify-content: center;
+    }
+
+}

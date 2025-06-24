@@ -1,0 +1,1341 @@
+/* ========================= Css Variables Start ======================== */
+:root {
+
+    /* Font Family */
+    --heading-font: "ArdelaEdgeX01", sans-serif;
+    --body-font: "Poppins", sans-serif;
+
+    /* Base Color */
+    --base-h: 336;
+    --base-s: 67%;
+    --base-l: 66%;
+    --base: var(--base-h) var(--base-s) var(--base-l);
+    --base-d-100: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.1);
+    --base-d-200: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.2);
+    --base-d-300: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.3);
+    --base-d-400: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.4);
+    --base-d-500: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.5);
+    --base-d-600: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.6);
+    --base-d-700: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.7);
+    --base-d-800: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.8);
+    --base-d-900: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 0.9);
+    --base-d-1000: var(--base-h) var(--base-s) calc(var(--base-l) - var(--base-l) * 1);
+    --base-l-100: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.1);
+    --base-l-200: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.2);
+    --base-l-300: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.3);
+    --base-l-400: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.4);
+    --base-l-500: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.5);
+    --base-l-600: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.6);
+    --base-l-700: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.7);
+    --base-l-800: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.8);
+    --base-l-900: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 0.9);
+    --base-l-1000: var(--base-h) calc(var(--base-s)) calc(var(--base-l) + (100% - var(--base-l)) * 1);
+    /* Base Two Color */
+    --base-two-h: 197;
+    --base-two-s: 100%;
+    --base-two-l: 40%;
+    --base-two: var(--base-two-h) var(--base-two-s) var(--base-two-l);
+    --base-two-d-100: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.1);
+    --base-two-d-200: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.2);
+    --base-two-d-300: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.3);
+    --base-two-d-400: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.4);
+    --base-two-d-500: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.5);
+    --base-two-d-600: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.6);
+    --base-two-d-700: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.7);
+    --base-two-d-800: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.8);
+    --base-two-d-900: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 0.9);
+    --base-two-d-1000: var(--base-two-h) var(--base-two-s) calc(var(--base-two-l) - var(--base-two-l) * 1);
+    --base-two-l-100: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.1);
+    --base-two-l-200: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.2);
+    --base-two-l-300: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.3);
+    --base-two-l-400: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.4);
+    --base-two-l-500: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.5);
+    --base-two-l-600: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.6);
+    --base-two-l-700: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.7);
+    --base-two-l-800: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.8);
+    --base-two-l-900: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 0.9);
+    --base-two-l-1000: var(--base-two-h) calc(var(--base-two-s)) calc(var(--base-two-l) + (100% - var(--base-two-l)) * 1);
+
+    --white: 0 0% 100%;
+    --body-color: 0 0% 33%;
+    --body-bg: 257 91% 21%;
+    --heading-color: 0 0% 16%;
+    --black: 0 0% 0%;
+    --grey: 0 0% 33%;
+    --border-color: 0 0% 88%;
+    --section-bg: 0 0% 87%;
+}
+
+/* ========================= Css Variables End =========================== */
+
+/* ================================= Common Typography Css Start =========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: hsl(var(--white));
+    word-break: break-word;
+    background-image: url(../images/body-bg.png);
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    overflow: hidden;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    color: hsl(var(--white) / 0.8);
+}
+
+span {
+    display: inline-block;
+    color: hsl(var(--white));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px 0;
+    font-family: var(--heading-font);
+    color: hsl(var(--white));
+    font-weight: 700;
+}
+
+a {
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-decoration: none;
+    color: hsl(var(--white));
+}
+
+a:hover {
+    color: hsl(var(--base));
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+select {
+    cursor: pointer;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* ================================= Common Typography Css End =========================== */
+
+
+/* ================================= Custom Classes Css Start =========================== */
+.gradient-text {
+    background-image: linear-gradient(to right bottom, hsl(var(--base-two)) 10%, hsl(var(--base)) 70%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.gradient-text::-moz-selection {
+    color: hsl(var(--white));
+    -webkit-text-fill-color: hsl(var(--white));
+    background: transparent;
+}
+
+.gradient-text::selection {
+    color: hsl(var(--white));
+    -webkit-text-fill-color: hsl(var(--white));
+    background: transparent;
+}
+
+/* ================================= Custom Classes Css End =========================== */
+
+/* ================================= Margin Css Start =========================== */
+.my-120 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 576px) {
+    .my-120 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .my-120 {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+}
+
+.mt-120 {
+    margin-top: 60px;
+}
+
+@media (min-width: 576px) {
+    .mt-120 {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mt-120 {
+        margin-top: 120px;
+    }
+}
+
+.mb-120 {
+    margin-bottom: 60px;
+}
+
+@media (min-width: 576px) {
+    .mb-120 {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mb-120 {
+        margin-bottom: 120px;
+    }
+}
+
+.my-60 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .my-60 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .my-60 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+.mt-60 {
+    margin-top: 30px;
+}
+
+@media (min-width: 576px) {
+    .mt-60 {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mt-60 {
+        margin-top: 60px;
+    }
+}
+
+.mb-60 {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .mb-60 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mb-60 {
+        margin-bottom: 60px;
+    }
+}
+
+/* ================================= Margin Css End =========================== */
+/* ================================= Padding Css Start =========================== */
+.py-120 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media (min-width: 576px) {
+    .py-120 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .py-120 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+.pt-120 {
+    padding-top: 60px;
+}
+
+@media (min-width: 576px) {
+    .pt-120 {
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pt-120 {
+        padding-top: 120px;
+    }
+}
+
+.pb-120 {
+    padding-bottom: 60px;
+}
+
+@media (min-width: 576px) {
+    .pb-120 {
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pb-120 {
+        padding-bottom: 120px;
+    }
+}
+
+.py-60 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .py-60 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .py-60 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.pt-60 {
+    padding-top: 30px;
+}
+
+@media (min-width: 576px) {
+    .pt-60 {
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pt-60 {
+        padding-top: 60px;
+    }
+}
+
+.pb-60 {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .pb-60 {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pb-60 {
+        padding-bottom: 60px;
+    }
+}
+
+/* ================================= Padding Css End =========================== */
+
+/* ================================= Preloader Css Start =========================== */
+.preloader {
+    position: fixed;
+    z-index: 999999;
+    background-color: hsl(var(--body-bg));
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.preloader .loader__text {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: 500;
+    font-family: var(--body-font);
+    letter-spacing: 2px;
+    font-size: 40px;
+    background: radial-gradient(circle closest-side, hsl(var(--base)) 94%, transparent) right/calc(200% - 1em) 100%;
+    -webkit-animation: loader__circle 1s infinite alternate linear;
+    animation: loader__circle 1s infinite alternate linear;
+}
+
+@media screen and (max-width: 575px) {
+    .preloader .loader__text {
+        font-size: 1.875rem;
+    }
+}
+
+.preloader .loader__text::before {
+    content: attr(data-text);
+    line-height: 1em;
+    color: transparent;
+    background: inherit;
+    background-image: radial-gradient(circle closest-side, hsl(var(--white)) 94%, hsl(var(--white)/0.1));
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@-webkit-keyframes loader__circle {
+    100% {
+        background-position: left;
+    }
+}
+
+@keyframes loader__circle {
+    100% {
+        background-position: left;
+    }
+}
+
+/* ================================= Preloader Css End ===========================  */
+
+
+/* ===================== Scroll to Top Start ================================= */
+.scroll-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    color: hsl(var(--white));
+    width: 48px;
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 5;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    background-color: hsl(var(--base));
+}
+
+.scroll-top:hover {
+    color: hsl(var(--white));
+    background-color: hsl(var(--base-d-100));
+}
+
+.scroll-top.show {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* ===================== Scroll to Top End ================================= */
+
+
+/* ===================== Template Selection Css Start =================== */
+::-moz-selection {
+    color: hsl(var(--white));
+    background: hsl(var(--base-d-100));
+}
+
+::selection {
+    color: hsl(var(--white));
+    background: hsl(var(--base-d-100));
+}
+
+/* ===================== Template Selection Css End ===================  */
+
+
+/* ===================== Common Button Css Start ===================  */
+.common__btn {
+    background-image: linear-gradient(to right bottom, hsl(var(--base-l-200)) 0%, hsl(var(--base-d-100)) 62%);
+    padding: 10px 20px;
+    border-radius: 60px;
+    color: hsl(var(--white));
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.common__btn:hover {
+    color: hsl(var(--white));
+}
+
+.common__btn::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    background-image: linear-gradient(to right bottom, hsl(var(--base-two) / 0.3) 0%, hsl(var(--base)) 62%);
+    transition: 0.3s;
+}
+
+.common__btn:hover::after {
+    width: 100%;
+}
+
+/* ===================== Common Button Css End ===================  */
+
+
+/* ======================  Offcanvas Section Start  ======================*/
+.offcanvas__area {
+    position: fixed !important;
+    left: -100%;
+    height: 100%;
+    width: 18.75rem;
+    padding: 1.25rem;
+    padding-right: 0 !important;
+    background-color: hsl(var(--body-bg));
+    border-right: 0.0625rem solid hsl(var(--white)/0.04);
+    z-index: 15 !important;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    visibility: hidden;
+    top: 0;
+    overflow-y: auto;
+}
+
+.offcanvas__area.active {
+    left: 0;
+    visibility: visible;
+}
+
+.offcanvas__area .offcanvas__topbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.offcanvas__area .offcanvas__topbar a img {
+    width: 40px;
+}
+
+.offcanvas__area .offcanvas__topbar .menu__close {
+    width: 1.875rem;
+    height: 1.875rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    color: hsl(var(--white));
+    font-size: 1.25rem;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.offcanvas__area .offcanvas__topbar .menu__close:hover {
+    color: hsl(var(--base));
+}
+
+.offcanvas__menu ul li a {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid hsl(var(--white) / 0.1);
+    padding: 12px 0px;
+    transition: 0.3s;
+}
+
+.offcanvas__menu ul li a:hover {
+    color: hsl(var(--base));
+}
+
+.offcanvas__menu {
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.offcanvas__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 24px;
+    padding-right: 20px;
+}
+
+.offcanvas__overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(var(--black)/0.3);
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    z-index: 12;
+}
+
+.offcanvas__overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ======================  Offcanvas Section End  ======================*/
+
+
+/* ======================  Header Start Here  ======================*/
+
+.menu__open {
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    color: hsl(var(--white));
+    transition: 0.3s;
+}
+
+.menu__open:hover {
+    color: hsl(var(--base));
+}
+
+.header__area {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    width: 100%;
+    z-index: 6;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: hsl(var(--white) / 0.2);
+    border: 3px solid hsl(var(--white) / 0.1);
+    border-radius: 16px;
+    padding: 12px 24px;
+    backdrop-filter: blur(12px);
+}
+
+.header__logo a {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo a img {
+    width: 50px;
+}
+
+.header__menu ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__menu ul li a {
+    color: hsl(var(--white));
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__menu ul li a:hover,
+.header__menu ul li a.active {
+    color: hsl(var(--base));
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+/* ======================  Header End Here  ======================*/
+
+
+/* ======================  Hero Start Here  ======================*/
+.hero__area {
+    min-height: 100vh;
+    padding-top: 230px;
+    padding-bottom: 170px;
+}
+
+.hero__wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.hero__social {
+    position: absolute;
+    left: -70px;
+    top: -50px;
+    z-index: -1;
+    user-select: none;
+    pointer-events: none;
+    max-width: 265px;
+    animation: customAni 10s linear 0s infinite normal none;
+}
+
+.hero__social img {
+    width: 100%;
+}
+
+.hero__social.social__two {
+    right: -70px;
+    left: auto;
+    animation: customAni2 10s linear 0s infinite normal none !important;
+}
+
+@keyframes customAni {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(15deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes customAni2 {
+    0% {
+        transform: rotate(15deg);
+    }
+
+    50% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+.hero__content h1 {
+    font-size: 85px;
+    line-height: 0.95;
+    font-weight: 900;
+    text-shadow: 0 4px 5px hsl(var(--black) / 0.2);
+    margin-bottom: 32px;
+}
+
+.hero__content {
+    text-align: center;
+    max-width: 82%;
+    margin-inline: auto;
+}
+
+.hero__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 28px;
+}
+
+.hero__play {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero__play a {
+    width: 70px;
+    height: 70px;
+    background-color: hsl(var(--white));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: hsl(var(--base));
+    transition: 0.3s;
+    box-shadow: 0px 5px 8px hsl(var(--black) / 0.08);
+}
+
+.play__btn {
+    width: 100px;
+    height: 100px;
+    background: hsl(var(--base));
+    border-radius: 50%;
+    animation: animate-pulse 3s linear infinite;
+}
+
+@keyframes animate-pulse {
+    0% {
+        box-shadow: 0 0 0 0 hsl(var(--base) / 0.7), 0 0 0 0 hsl(var(--base) / 0.7);
+    }
+
+    40% {
+        box-shadow: 0 0 0 30px transparent, 0 0 0 0 hsl(var(--base) / 0.7);
+    }
+
+    80% {
+        box-shadow: 0 0 0 30px transparent, 0 0 0 30px transparent;
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 transparent, 0 0 0 30px transparent;
+    }
+}
+
+/* ======================  Hero End Here  ======================*/
+
+
+/* ======================  Feature Start Here  ======================*/
+.feature__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.feature__single {
+    text-align: center;
+    background-image: linear-gradient(to right bottom, hsl(var(--base-l-200)), hsl(var(--base-d-100)));
+    border-radius: 10px;
+    padding: 32px;
+    height: fit-content;
+    position: relative;
+    z-index: 1;
+}
+
+.feature__single img {
+    max-width: 100px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.feature__single h4 {
+    font-size: 28px;
+    text-shadow: 0 3px 6px hsl(var(--black) / 0.3);
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.feature__single p {
+    font-size: 14px;
+}
+
+.feature__single::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    content: "";
+    background-image: linear-gradient(to right bottom, hsl(var(--base-two) / 0.4), transparent);
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.feature__single:hover::after {
+    height: 100%;
+}
+
+.feature__single:first-child {
+    margin-top: -30px;
+}
+
+.feature__single:last-child {
+    margin-top: 30px;
+}
+
+/* ======================  Feature End Here  ======================*/
+
+
+/* ======================  About Start Here  ======================*/
+.section__heading {
+    text-align: center;
+    max-width: 72%;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.section__heading h2 {
+    font-size: 50px;
+    text-shadow: 0px 3px 4px hsl(var(--black) / 0.2);
+}
+
+.about__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+}
+
+.about__img img {
+    width: 100%;
+}
+
+.about__info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about__info ul li h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about__info {
+    max-width: 80%;
+}
+
+.about__info ul li {
+    position: relative;
+    z-index: 1;
+}
+
+.about__info ul li::after {
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+    content: "";
+    background: radial-gradient(circle, hsl(var(--base)) 0%, transparent 100%);
+}
+
+.about__info ul li:last-child::after {
+    display: none;
+}
+
+.about__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* ======================  About End Here  ======================*/
+
+
+/* ======================  Service Start Here  ======================*/
+.service__main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.service__card {
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.service__card img {
+    max-height: 70px;
+    margin-bottom: 6px;
+}
+
+.service__card h4 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.service__card:hover {
+    background-image: linear-gradient(to right bottom, hsl(var(--base-two) / 0.4) 10%, hsl(var(--base)) 65%);
+    background-color: hsl(var(--base));
+}
+
+.service__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.service__wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.service__sp {
+    position: absolute;
+    user-select: none;
+    pointer-events: none;
+    z-index: -1;
+    max-width: 100px;
+    left: -50px;
+    top: -50px;
+    animation: customAni 5s linear 0s infinite normal none;
+}
+
+.service__sp.sp2 {
+    left: auto;
+    right: -50px;
+}
+
+.service__sp.sp3 {
+    top: auto;
+    bottom: -73px;
+    left: 40px;
+}
+
+.service__sp.sp4 {
+    left: auto;
+    top: auto;
+    right: -85px;
+    bottom: -50px;
+}
+
+/* ======================  Service End Here  ======================*/
+
+
+/* ======================  Pricing Start Here  ======================*/
+.pricing__main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.pricing__card {
+    border: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 10px;
+    padding: 32px;
+    text-align: center;
+}
+
+.pricing__card h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.pricing__card p {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.pricing__card h5 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: -18px;
+}
+
+.pricing__card h5 span {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.pricing__card .common__btn {
+    width: 100%;
+}
+
+.pricing__card ul {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.pricing__card ul li {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(var(--white) / 0.7);
+}
+
+.pricing__card ul li:not(:last-child) {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing__card ul li:not(:last-child)::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    content: "";
+    z-index: -1;
+    background: radial-gradient(circle, hsl(var(--base)) 0%, transparent 100%);
+}
+
+/* ======================  Pricing End Here  ======================*/
+
+
+/* ======================  Testimonial Start Here  ======================*/
+.testimonial__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.testimonial__main {
+    width: 700px;
+}
+
+.testimonial__wrap .section__heading {
+    text-align: start;
+    max-width: 95%;
+    margin-inline: unset;
+    margin-left: 0;
+}
+
+.testimonial__content {
+    background-image: linear-gradient(to right bottom, hsl(var(--base-two) / 0.3) 10%, hsl(var(--base)) 70%);
+    background-color: hsl(var(--base));
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.testimonial__user {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.testimonial__user img {
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial__user h4 {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.testimonial__user span {
+    font-size: 14px;
+    color: hsl(var(--white) / 0.7);
+}
+
+.testimonial__area {
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial__area::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: hsl(var(--base));
+    content: "";
+    z-index: -2;
+    background-image: linear-gradient(to right bottom, hsl(var(--base-two)) 10%, hsl(var(--base)) 70%);
+    border-radius: 16px 0px 0px 16px;
+    opacity: 0.2;
+}
+
+/* ======================  Testimonial End Here  ======================*/
+
+
+/* ======================  Contact Start Here  ======================*/
+.contact__form input,
+.contact__form textarea {
+    display: block;
+    width: 100%;
+    height: 46px;
+    background-color: transparent;
+    border: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: hsl(var(--white));
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 16px;
+    outline: none;
+    backdrop-filter: blur(5px);
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+    background-color: hsl(var(--white) / 0.1);
+}
+
+.contact__form textarea {
+    height: 120px;
+    padding: 16px;
+}
+
+.contact__form {
+    max-width: 60%;
+    margin-inline: auto;
+}
+
+.contact__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact__btn button {
+    width: 230px;
+}
+
+.contact__wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.contact__sp {
+    position: absolute;
+    left: 8%;
+    top: 2%;
+    z-index: -1;
+    user-select: none;
+    pointer-events: none;
+    max-width: 100px;
+}
+
+.contact__sp.sp2 {
+    top: auto;
+    bottom: 20%;
+    left: 0;
+}
+
+.contact__sp.sp3 {
+    left: auto;
+    right: 8%;
+}
+
+.contact__sp.sp4 {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+
+/* ======================  Contact End Here  ======================*/
+
+
+/* ======================  CTA Start Here  ======================*/
+.cta__wrap {
+    background-image: url(../images/cta-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 14px;
+    padding-inline: 60px;
+    text-align: center;
+}
+
+.cta__wrap h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    text-shadow: 0 4px 4px hsl(var(--black) / 0.2);
+}
+
+.cta__wrap p {
+    margin-bottom: 26px;
+}
+
+/* ======================  CTA End Here  ======================*/
+
+
+/* ======================  Footer Start Here  ======================*/
+.footer__area {
+    margin-bottom: 32px;
+}
+
+.footer__topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.footer__bottombar {
+    background-color: hsl(var(--white) / 0.1);
+    border: 3px solid hsl(var(--white) / 0.1);
+    border-radius: 60px;
+    padding: 16px 24px;
+    backdrop-filter: blur(12px);
+    text-align: center;
+}
+
+/* ======================  Footer End Here  ======================*/
