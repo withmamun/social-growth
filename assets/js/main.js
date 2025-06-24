@@ -77,19 +77,19 @@
         let openEye = $(this).find('.open-eye-icon');
         let closeEye = $(this).find('.close-eye-icon');
 
-        // Toggle password visibility
         if (inputField.attr('type') === "password") {
           inputField.attr('type', 'text');
-          openEye.show();
-          closeEye.hide();
-        } else {
-          inputField.attr('type', 'password');
           openEye.hide();
           closeEye.show();
+        } else {
+          inputField.attr('type', 'password');
+          openEye.show();
+          closeEye.hide();
         }
       });
     });
   }
+
   // ========================= Show Hide Password Js End ===================
 
 
