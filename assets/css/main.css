@@ -1906,3 +1906,146 @@ button:focus {
 }
 
 /* ======================  Add Post End Here  ======================*/
+
+
+/* ======================  Home Start Here  ======================*/
+
+.home__wrap {
+    background-color: hsl(var(--black) / 0.2);
+    border: 1px solid hsl(var(--white) / 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+}
+
+.home__duration {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.home__card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.home__card__single {
+    border: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+}
+
+.home__card__single h4 {
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.home__chart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* ======================  Home End Here  ======================*/
+
+
+/* ======================  Plan Start Here  ======================*/
+
+.plan__wrap {
+    max-width: 100%;
+    margin-inline: auto;
+    padding: 60px 0px;
+}
+
+.plan__topbar {
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 75%;
+    margin-inline: auto;
+}
+
+.plan__topbar h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.plan__wrapper h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.plan__price {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.plan__price__card {
+    border: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+.plan__price__card span {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.plan__price__card h3 {
+    font-size: 55px;
+    margin-top: -24px;
+    margin-bottom: 10px;
+}
+
+.plan__wrapper {
+    margin-bottom: 20px;
+}
+
+.plan__payment h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.plan__payment__wrap {
+    border: 1px solid hsl(var(--white) / 0.2);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+.plan__payment {
+    margin-bottom: 20px;
+}
+
+.payment__cycle {
+    margin-bottom: 20px;
+}
+
+.payment__cycle h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.payment__cycle__content {
+    border: 1px solid hsl(var(--white) / 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: fit-content;
+    text-align: center;
+}
+
+.payment__cycle__content h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* ======================  Plan End Here  ======================*/

@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- Swiper -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- ApexChart -->
-    <link rel="stylesheet" href="assets/css/apexcharts.css">
     <!-- Custom Font css -->
     <link rel="stylesheet" href="assets/fonts/custom-font.css">
     <!-- Main css -->
@@ -35,12 +33,12 @@
             </div>
             <div class="sidebar__menu">
                 <ul>
-                    <li><a href="#" class="active"><i class="fa-solid fa-boxes-stacked"></i>Dashboard</a></li>
+                    <li><a href="#"><i class="fa-solid fa-boxes-stacked"></i>Dashboard</a></li>
                     <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram Account</a></li>
                     <li><a href="#"><i class="fa-solid fa-user"></i>Account</a></li>
                     <li><a href="#"><i class="fa-solid fa-rocket"></i>Lazer Vote</a></li>
                     <li><a href="#"><i class="fa-regular fa-file-lines"></i>Instagram Post</a></li>
-                    <li><a href="#"><i class="fa-regular fa-square-plus"></i>Add Post</a></li>
+                    <li><a href="#" class="active"><i class="fa-regular fa-square-plus"></i>Add Post</a></li>
                     <li><a href="#"><i class="fa-solid fa-calendar-days"></i>Calender</a></li>
                     <li><a href="#"><i class="fa-solid fa-layer-group"></i>Template</a></li>
                     <li><a href="#"><i class="fa-solid fa-repeat"></i>Repost</a></li>
@@ -69,43 +67,71 @@
             </div>
             <div class="dashboard__wrapper">
                 <div class="post__header">
-                    <a href="#" class="active">Dashboard</a>
-                    <a href="#">Users</a>
-                    <a href="#">Accounts</a>
-                    <a href="#">Reports</a>
+                    <a href="#" class="active"><i class="fa-solid fa-camera"></i>ADD POST</a>
+                    <a href="#"><i class="fa-solid fa-video"></i>Add Reels</a>
+                    <a href="#"><i class="fa-solid fa-film"></i>Add Story</a>
+                    <a href="#"><i class="fa-solid fa-photo-film"></i>Add Album</a>
                 </div>
-                <div class="home__wrap">
-                    <span class="home__duration">Your Number in the last 30 days</span>
-                    <div class="home__card">
-                        <div class="home__card__single">
-                            <h4>46</h4>
-                            <p>Users</p>
+                <div class="post__wrap">
+                    <div class="post__media">
+                        <div class="media__topbar">
+                            <h5>Media</h5>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
                         </div>
-                        <div class="home__card__single">
-                            <h4>119</h4>
-                            <p>Accounts</p>
+                        <div class="media__file">
+                            <div class="upload__info">
+                                <img src="assets/images/file.png" alt="image">
+                                <p>Your media volume is empty Drag some files here</p>
+                            </div>
                         </div>
-                        <div class="home__card__single">
-                            <h4>0</h4>
-                            <p>Published Posts</p>
-                        </div>
-                        <div class="home__card__single">
-                            <h4>92</h4>
-                            <p>Automations</p>
+                        <div class="file__upload__main">
+                            <input type="file" id="file__upload">
+                            <label for="file__upload">Select File</label>
                         </div>
                     </div>
-                    <div class="home__chart">
-                        <div class="home__chart__single">
-                            <h4>New Accounts by day</h4>
-                            <div id="chart__one"></div>
+                    <div class="post__media">
+                        <div class="media__topbar">
+                            <h5>Media</h5>
+                            <select>
+                                <option>Select Account</option>
+                                <option>Instagram</option>
+                                <option>Facebook</option>
+                                <option>Twitter</option>
+                            </select>
                         </div>
-                        <div class="home__chart__single">
-                            <h4>News Users by day</h4>
-                            <div id="chart__two"></div>
+                        <div class="add__file">
+                            <p>DRAG MEDIA HERE TO POST</p>
                         </div>
-                        <div class="home__chart__single">
-                            <h4>New Users x New Accounts by Day</h4>
-                            <div id="chart__three"></div>
+                        <div class="post__form">
+                            <div class="post__double">
+                                <input type="text" placeholder="Caption">
+                                <input type="text" placeholder="FIRST COMMENT">
+                            </div>
+                            <textarea placeholder="Write a Caption"></textarea>
+                            <div class="post__setting">
+                                <a href="#">Schedule settings</a>
+                                <a href="#">Advanced settings</a>
+                            </div>
+                            <span class="post__warning">Please select an Instagram to activate posting feature.</span>
+                        </div>
+                        <div class="post__submit">
+                            <button type="submit">POST NOW</button>
+                        </div>
+                    </div>
+                    <div class="post__media">
+                        <div class="media__topbar preview">
+                            <h5>Instagram</h5>
+                        </div>
+                        <div class="post__preview">
+                            <img src="assets/images/user.jpg" alt="image">
+                            <div>
+                                <h4>Lorem ipsum</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="post__bottombar">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor.</p>
                         </div>
                     </div>
                 </div>
@@ -123,8 +149,6 @@
     <script src="assets/js/scrollreveal.min.js"></script>
     <!-- Swiper Js -->
     <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- ApexChart Js -->
-    <script src="assets/js/apexcharts.min.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 </body>
