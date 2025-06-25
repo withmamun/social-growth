@@ -120,6 +120,10 @@
         font-size: 14px;
     }
 
+    .auth__form {
+        max-width: 90%;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -208,6 +212,13 @@
         font-size: 32px;
     }
 
+    .auth__img {
+        display: none;
+    }
+
+    .auth__area {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -408,4 +419,36 @@
         justify-content: center;
     }
 
+    .auth__back a {
+        font-size: 14px;
+    }
+
+    .auth__title h2 {
+        font-size: 28px;
+    }
+
+    .auth__form {
+        max-width: 100%;
+    }
+
+    .auth__social a {
+        padding: 10px 14px;
+        border-radius: 4px;
+        font-size: 12px;
+        min-height: 43px;
+    }
+
+    .auth__main {
+        border-radius: 8px;
+        padding: 24px;
+    }
+
+    .auth__area {
+        padding: 20px;
+    }
+
+    .auth__form__wrap {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
 }
