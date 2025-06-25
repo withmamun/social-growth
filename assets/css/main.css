@@ -1505,6 +1505,11 @@ button:focus {
     margin-bottom: 20px;
 }
 
+.forgot__password {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 /* ======================  Auth End Here  ======================*/
 
 
