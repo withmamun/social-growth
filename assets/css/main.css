@@ -2638,7 +2638,7 @@ a.btns {
     margin-bottom: 10px;
 }
 
-.add__account__wrapper input {
+.add__account__wrapper input, .add__account__wrapper textarea {
     width: 100%;
     height: 56px;
     background-color: transparent;
@@ -2649,6 +2649,11 @@ a.btns {
     padding: 0px 16px;
     margin-bottom: 20px;
     font-size: 16px;
+}
+
+.add__account__wrapper textarea{
+    padding: 16px;
+    height: 130px;
 }
 
 .add__account__wrapper .auth__form__pass input {
