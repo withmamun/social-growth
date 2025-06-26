@@ -2279,11 +2279,11 @@ a.btns {
     padding: 10px 21px;
 }
 
-tbody tr:first-child {
+.modules-area tbody tr:first-child {
     padding-top: 0px;
 }
 
-tbody tr {
+.modules-area tbody tr {
     border-bottom: 1px solid #c536cb9c;
     padding: 50px 0px;
     display: flex;
@@ -2291,21 +2291,21 @@ tbody tr {
     justify-content: space-between;
 }
 
-tbody tr td h4 {
+.modules-area tbody tr td h4 {
     margin-bottom: 11px;
     font-size: 20px;
     font-weight: 400;
 }
 
-tbody tr td:first-child p {
+.modules-area tbody tr td:first-child p {
     font-size: 13px;
 }
 
-tbody tr td:nth-child(2) p {
+.modules-area tbody tr td:nth-child(2) p {
     font-size: 18px;
 }
 
-tbody tr td:first-child p a {
+.modules-area tbody tr td:first-child p a {
     color: #c536cb;
 }
 
@@ -2333,7 +2333,6 @@ tbody tr td:first-child p a {
 
 
 /* ======================  Package Start Here  ======================*/
-
 .search-task-area.package__area .search-area {
     margin-bottom: 0;
 }
@@ -2384,3 +2383,151 @@ tbody tr td:first-child p a {
 }
 
 /* ======================  Package end Here  ======================*/
+
+
+/* ======================  Account Start Here  ======================*/
+
+.account__wrap {
+    background-color: hsl(var(--black) / 0.2);
+    border: 1px solid hsl(var(--white) / 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+}
+
+.account__topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.account__topbar h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.account__search {
+    position: relative;
+    z-index: 1;
+}
+
+.account__search input {
+    background-color: transparent;
+    border: 1px solid hsl(var(--white) / 0.2);
+    color: hsl(var(--white));
+    outline: none;
+    padding: 14px 16px;
+    border-radius: 6px;
+    padding-right: 30px;
+}
+
+.account__search span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.account__table table {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.account__table tr th {
+    color: hsl(var(--white));
+    font-size: 16px;
+    font-weight: 600;
+    border-top: 1px solid hsl(var(--white) / 0.2);
+    border-bottom: 1px solid hsl(var(--white) / 0.2);
+    padding: 14px 6px;
+}
+
+.account__table tr td {
+    color: hsl(var(--white) / 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px 10px;
+    border-bottom: 1px solid hsl(var(--white) / 0.2);
+}
+
+.table__btn {
+    border: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 40px;
+    padding: 6px 22px;
+}
+
+.account__table tr th:first-child {
+    border-left: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.account__table tr th:last-child {
+    border-right: 1px solid hsl(var(--white) / 0.2);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.account__bottombar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.table__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.table__pagination a {
+    border: 1px solid hsl(var(--white) / 0.2);
+    padding: 6px 14px;
+    border-radius: 8px;
+}
+
+.table__pagination a.active {
+    background-image: linear-gradient(to right bottom, hsl(var(--base-two) / 0.5) 10%, hsl(var(--base) / 0.9) 70%);
+    border: none;
+}
+
+/* ======================  Account end Here  ======================*/
+
+
+/* ======================  Renew Account Start Here  ======================*/
+.account__renew {
+    max-width: 90%;
+    margin-inline: auto;
+    padding: 60px 0px;
+}
+
+.account__renew__topbar {
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 75%;
+    margin-inline: auto;
+}
+
+.account__renew__topbar h2 {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.account__renew__wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* ======================  Renew Account end Here  ======================*/
