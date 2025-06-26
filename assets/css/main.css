@@ -2590,3 +2590,90 @@ a.btns {
 }
 
 /* ======================  Reports end Here  ======================*/
+
+
+/* ======================  Add Account Start Here  ======================*/
+.add__account__wrap {
+    background-color: hsl(var(--black) / 0.2);
+    border: 1px solid hsl(var(--white) / 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+}
+
+.add__account__tutorial {
+    text-align: center;
+    max-width: 70%;
+    margin-inline: auto;
+}
+
+.add__account__tutorial h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.add__account__tutorial p {
+    margin-bottom: 24px;
+}
+
+.add__account__tutorial iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-bottom: 20px;
+}
+
+.add__account__tutorial .common__btn {
+    width: 100%;
+    padding: 14px 20px;
+}
+
+.add__account__topbar {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.add__account__topbar h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.add__account__wrapper input {
+    width: 100%;
+    height: 56px;
+    background-color: transparent;
+    border: 1px solid hsl(var(--white) / 0.2);
+    color: hsl(var(--white));
+    border-radius: 8px;
+    outline: none;
+    padding: 0px 16px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.add__account__wrapper .auth__form__pass input {
+    margin-bottom: 0;
+    padding-right: 50px;
+}
+
+.add__account__widgets {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.add__account__wrapper button.common__btn {
+    width: 100%;
+    padding: 14px 20px;
+}
+
+.add__account__wrapper {
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+
+/* ======================  Add Account end Here  ======================*/
