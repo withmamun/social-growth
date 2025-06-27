@@ -2638,7 +2638,8 @@ a.btns {
     margin-bottom: 10px;
 }
 
-.add__account__wrapper input, .add__account__wrapper textarea {
+.add__account__wrapper input,
+.add__account__wrapper textarea {
     width: 100%;
     height: 56px;
     background-color: transparent;
@@ -2651,7 +2652,7 @@ a.btns {
     font-size: 16px;
 }
 
-.add__account__wrapper textarea{
+.add__account__wrapper textarea {
     padding: 16px;
     height: 130px;
 }
@@ -2682,3 +2683,59 @@ a.btns {
 
 
 /* ======================  Add Account end Here  ======================*/
+
+
+/* ======================  Calendar Start Here  ======================*/
+
+.calendar__wrap {
+    background-color: hsl(var(--black) / 0.2);
+    border: 1px solid hsl(var(--white) / 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+}
+
+.calendar__topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.calendar__topbar__left h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.calendar__topbar__left p {
+    font-size: 14px;
+}
+
+.calendar__topbar__right label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: hsl(var(--white) / 0.8);
+    cursor: pointer;
+}
+
+.calendar__topbar__right select {
+    background-color: hsl(var(--base-two));
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: hsl(var(--white));
+    border-radius: 6px;
+}
+
+.calendar__topbar__right select option {
+    color: hsl(var(--white));
+    background-color: hsl(var(--body-bg));
+}
+
+/* ======================  Calendar end Here  ======================*/
