@@ -33,6 +33,18 @@
   //============================ Offcanvas Js End ==============================
 
 
+  //============================ Sidebar Js Start ============================
+  $(document).on('click', '.sidebar__open', function () {
+    $('.dashboard__sidebar').addClass('active');
+  });
+
+  $(document).on('click', '.sidebar__close', function () {
+    $('.dashboard__sidebar').removeClass('active');
+  });
+
+  //============================ Sidebar Js End ==============================
+
+
   // ========================= Magnific Popup Js Start ===================
   $('.play__btn').magnificPopup({
     type: 'iframe',

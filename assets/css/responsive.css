@@ -124,6 +124,79 @@
         max-width: 90%;
     }
 
+
+
+    .sidebar__menu ul li a {
+        font-size: 14px;
+    }
+
+    .dashboard__sidebar {
+        width: 270px;
+    }
+
+    .dashboard__wrap {
+        padding-left: 290px;
+    }
+
+    .dashboard__header__subs p {
+        font-size: 14px;
+    }
+
+    .dashboard__header__right {
+        gap: 12px;
+    }
+
+    .dashboard__user span {
+        font-size: 14px;
+    }
+
+    .post__header a {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .account__topbar h4 {
+        font-size: 16px;
+    }
+
+    .account__table tr th {
+        font-size: 14px;
+    }
+
+    .account__table tr td {
+        font-size: 14px;
+    }
+
+    .table__btn {
+        font-size: 12px;
+    }
+
+    .account__bottombar p {
+        font-size: 14px;
+    }
+
+    .table__pagination a {
+        padding: 4px 12px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -219,6 +292,28 @@
     .auth__area {
         grid-template-columns: 1fr;
     }
+
+    .dashboard__sidebar {
+        left: -100%;
+        transition: 0.3s;
+    }
+
+    .dashboard__sidebar.active {
+        left: 10px;
+    }
+
+    .sidebar__close {
+        display: flex;
+    }
+
+    .dashboard__wrap {
+        padding-left: 0;
+    }
+
+    .sidebar__open {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -318,6 +413,49 @@
     .footer__bottombar {
         border-width: 2px;
     }
+
+    .dashboard__header__right .dashboard__header__subs {
+        display: none;
+    }
+
+
+    .dashboard__sidebar .dashboard__header__subs {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .post__header a {
+        font-size: 12px;
+    }
+
+    .post__header {
+        margin-top: 10px;
+        gap: 6px;
+    }
+
+    .account__bottombar {
+        justify-content: center;
+        gap: 12px;
+        margin-top: 16px;
+        flex-direction: column;
+    }
+
+    .account__table {
+        overflow-x: auto;
+    }
+
+    .account__table table {
+        width: 650px;
+    }
+
+
+
+
+
+
+
 
 }
 
@@ -450,5 +588,38 @@
     .auth__form__wrap {
         grid-template-columns: 1fr;
         gap: 0;
+    }
+
+    .post__header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dashboard__logout a {
+        border-radius: 4px;
+        padding: 8px 12px;
+    }
+
+    .dashboard__notifications a {
+        width: 26px;
+        height: 26px;
+        font-size: 16px;
+    }
+
+    .dashboard__user span {
+        font-size: 12px;
+    }
+
+    .dashboard__user img {
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+    }
+
+    .dashboard {
+        padding: 10px;
+    }
+
+    .account__wrap {
+        margin-top: 10px;
     }
 }
