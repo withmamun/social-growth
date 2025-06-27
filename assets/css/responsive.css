@@ -181,23 +181,71 @@
         font-size: 13px;
     }
 
+    .post__wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    .home__card__single p {
+        font-size: 14px;
+    }
 
+    .auth__title h2 {
+        font-size: 22px;
+    }
 
+    .lazer-vote {
+        grid-template-columns: 1fr;
+    }
 
+    .modules-area tbody tr td:nth-child(2) p {
+        font-size: 14px;
+    }
 
+    .modules-area tbody tr td h4 {
+        font-size: 16px;
+    }
 
+    .module-table-btn a {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
 
+    .account__renew__topbar h2 {
+        font-size: 32px;
+    }
 
+    .account__renew .pricing__card h4 {
+        font-size: 24px;
+    }
 
+    .account__renew .pricing__card p {
+        font-size: 14px;
+    }
 
+    .account__renew .pricing__card h5 span {
+        font-size: 50px;
+    }
 
+    .account__renew .pricing__card h5 {
+        font-size: 18px;
+        margin-top: -10px;
+    }
 
+    .account__renew .pricing__card ul li {
+        font-size: 14px;
+    }
 
+    .user__table {
+        overflow-x: auto;
+    }
 
-
+    .user__table table {
+        width: 770px !important;
+    }
 
 }
+
+
 
 @media screen and (max-width: 991px) {
     .container {
@@ -314,7 +362,45 @@
         display: block;
     }
 
+    .add__account__topbar h2 {
+        font-size: 24px;
+    }
+
+    .add__account__widgets .common__btn {
+        font-size: 12px;
+    }
+
+    .add__account__wrapper {
+        max-width: 100%;
+    }
+
+    .auth__back a {
+        font-size: 14px;
+    }
+
+    .plan__topbar h2 {
+        font-size: 30px;
+    }
+
+    .plan__wrapper h4 {
+        font-size: 20px;
+    }
+
+    .plan__payment h4 {
+        font-size: 20px;
+    }
+
+    .payment__cycle h4 {
+        font-size: 20px;
+    }
+
+    .account__renew__wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
+
+
 
 @media screen and (max-width: 767px) {
     .container {
@@ -428,6 +514,7 @@
 
     .post__header a {
         font-size: 12px;
+        padding: 10px;
     }
 
     .post__header {
@@ -450,14 +537,115 @@
         width: 650px;
     }
 
+    .add__account__tutorial h2 {
+        font-size: 20px;
+    }
 
+    .add__account__tutorial {
+        max-width: 100%;
+    }
 
+    .post__double {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
 
+    .post__form {
+        padding: 12px;
+    }
 
+    .post__wrap {
+        padding: 12px;
+    }
 
+    .media__topbar {
+        padding: 14px;
+    }
 
+    .home__card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home__chart {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .search-list ul li span {
+        font-size: 14px;
+    }
+
+    .search-area {
+        border-radius: 6px;
+        padding: 14px 20px;
+        margin-bottom: 20px;
+    }
+
+    .search-area input {
+        font-size: 14px;
+    }
+
+    .all-btnss {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lolumz-bottom input {
+        border-radius: 8px;
+        padding: 18px 20px;
+        margin-bottom: 16px;
+    }
+
+    .search-task>*,
+    .lolumz-area>*,
+    .modules-area {
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .modules-area table {
+        width: 650px;
+    }
+
+    .modules-area {
+        overflow-x: auto;
+    }
+
+    .modules-title h3 {
+        font-size: 18px;
+    }
+
+    .modules-title a {
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .plan__price {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .plan__topbar {
+        max-width: 100%;
+    }
+
+    .account__renew__topbar {
+        max-width: 100%;
+    }
+
+    .account__renew__topbar h2 {
+        font-size: 24px;
+    }
+
+    .account__renew__wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .report__form label {
+        font-size: 14px;
+    }
 
 }
+
+
 
 @media screen and (max-width: 575px) {
     .container {
@@ -622,4 +810,42 @@
     .account__wrap {
         margin-top: 10px;
     }
+
+    .add__account__wrap {
+        padding: 18px;
+        margin-top: 10px;
+    }
+
+    .post__wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .select-save {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .copy-download {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .plan__price {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .account__renew {
+        max-width: 100%;
+    }
+
+    .repost__main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .report__single h3 {
+        font-size: 16px;
+    }
+
+    .repost__main.four__column {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }

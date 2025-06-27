@@ -523,6 +523,7 @@ button:focus {
     z-index: 1;
     overflow: hidden;
     cursor: pointer;
+    text-align: center;
 }
 
 .common__btn:hover {
@@ -1958,7 +1959,7 @@ button:focus {
 .plan__wrap {
     max-width: 100%;
     margin-inline: auto;
-    padding: 60px 0px;
+    padding: 60px 20px;
 }
 
 .plan__topbar {
@@ -2157,6 +2158,7 @@ a.btnss {
     padding: 16px 10px;
     margin-bottom: 11px;
     font-size: 13px;
+    text-align: center;
 }
 
 a.btnss.active {
@@ -2277,6 +2279,7 @@ a.btns {
 
 .module-table-btn a {
     padding: 10px 21px;
+    white-space: nowrap;
 }
 
 .modules-area tbody tr:first-child {
@@ -2289,6 +2292,10 @@ a.btns {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.modules-area tbody tr td {
+    padding: 0px 10px;
 }
 
 .modules-area tbody tr td h4 {
@@ -2443,7 +2450,7 @@ a.btns {
 
 .account__table tr th {
     color: hsl(var(--white));
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     border-top: 1px solid hsl(var(--white) / 0.2);
     border-bottom: 1px solid hsl(var(--white) / 0.2);
@@ -2509,7 +2516,7 @@ a.btns {
 .account__renew {
     max-width: 90%;
     margin-inline: auto;
-    padding: 60px 0px;
+    padding: 60px 20px;
 }
 
 .account__renew__topbar {
@@ -2742,7 +2749,7 @@ a.btns {
 .users__btn {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 8px;
     margin-top: 16px;
 }
@@ -2798,18 +2805,19 @@ a.btns {
 }
 
 .sidebar__open {
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 22px;
-  margin-left: 10px;
-  display: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 22px;
+    margin-left: 10px;
+    display: none;
 }
+
 .sidebar__open:hover {
-  color: hsl(var(--base));
+    color: hsl(var(--base));
 }
 
 .dashboard__sidebar .dashboard__header__subs {
-	display: none;
+    display: none;
 }
 
 /* ======================  Sidebar end Here  ======================*/
