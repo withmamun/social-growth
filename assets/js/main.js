@@ -26,7 +26,7 @@
     $('.offcanvas__area, .offcanvas__overlay').addClass('active');
   });
 
-  $(document).on('click', '.menu__close, .offcanvas__overlay', function () {
+  $(document).on('click', '.menu__close, .offcanvas__overlay, .offcanvas__menu ul li a', function () {
     $('.offcanvas__area, .offcanvas__overlay').removeClass('active');
   });
 

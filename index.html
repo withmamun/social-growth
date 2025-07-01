@@ -46,14 +46,14 @@
             <span class="menu__close"><i class="fa-solid fa-xmark"></i></span>
         </div>
         <div class="offcanvas__menu">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Pricing</a></li>
+            <ul id="nav2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
             </ul>
         </div>
         <div class="offcanvas__btn">
-            <a href="#" class="common__btn">Login</a>
+            <a href="login.html" class="common__btn">Login</a>
             <a href="signup.html" class="common__btn">Sign Up</a>
         </div>
     </div>
@@ -69,14 +69,14 @@
                     <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
                 </div>
                 <div class="header__menu">
-                    <ul>
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Pricing</a></li>
+                    <ul id="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
                     </ul>
                 </div>
                 <div class="header__btn">
-                    <a href="#" class="common__btn">Login</a>
+                    <a href="login.html" class="common__btn">Login</a>
                     <a href="signup.html" class="common__btn">Sign Up</a>
                 </div>
                 <span class="menu__open"><i class="fa-solid fa-bars"></i></span>
@@ -88,7 +88,7 @@
     <main>
 
         <!-- ==================== Hero Start Here ==================== -->
-        <section class="hero__area">
+        <section class="hero__area" id="hero">
             <div class="container">
                 <div class="hero__wrap">
                     <div class="hero__social"><img src="assets/images/hero/social-1.png" alt="image"></div>
@@ -143,7 +143,7 @@
 
 
         <!-- ==================== About Start Here ==================== -->
-        <section class="about__area pt-120">
+        <section class="about__area pt-120" id="about">
             <div class="container">
                 <div class="section__heading">
                     <h2>Work smarter, not harder.</h2>
@@ -241,7 +241,7 @@
 
 
         <!-- ==================== Pricing Start Here ==================== -->
-        <section class="pricing__area pt-120">
+        <section class="pricing__area pt-120" id="pricing">
             <div class="container">
                 <div class="pricing__wrap">
                     <div class="section__heading">
@@ -267,11 +267,12 @@
                             <p>For those starting their journey.</p>
                             <h5><span class="gradient-text">$69</span>/mo</h5>
                             <ul>
-                                <li>1 account</li>
+                                <li>3 account</li>
                                 <li>Mass Story Looking</li>
                                 <li>Mass Story Liking</li>
                                 <li>Basic Analytics & Reporting</li>
                                 <li>Telegram Notifications</li>
+                                <li>AI Automated Chatbot to features</li>
                             </ul>
                             <a href="#" class="common__btn">Get Started</a>
                         </div>
@@ -280,11 +281,13 @@
                             <p>For those starting their journey.</p>
                             <h5><span class="gradient-text">$99</span>/mo</h5>
                             <ul>
-                                <li>1 account</li>
+                                <li>5 account</li>
                                 <li>Mass Story Looking</li>
                                 <li>Mass Story Liking</li>
                                 <li>Basic Analytics & Reporting</li>
                                 <li>Telegram Notifications</li>
+                                <li>AI Automated Chatbot to features</li>
+                                <li>Close Friends Management to features</li>
                             </ul>
                             <a href="#" class="common__btn">Get Started</a>
                         </div>
@@ -326,12 +329,9 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__content">
-                                        <p>GrowFans has completely transformed our
-                                            Instagram strategy. We went from struggling to gain engagement to
-                                            consistently reaching
-                                            thousands of highly targeted users every day.
-                                            The automation tools are seamless, and the
-                                            results speak for themselves!</p>
+                                        <p>We tried several tools before, but nothing compares to GrowFans. Our follower
+                                            count is growing daily, and we’re getting more DMs and conversions than
+                                            ever. It’s like having a full-time growth expert on our team.</p>
                                         <div class="testimonial__user">
                                             <img src="assets/images/testimonial-user.jpg" alt="image">
                                             <div>
@@ -343,12 +343,9 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__content">
-                                        <p>GrowFans has completely transformed our
-                                            Instagram strategy. We went from struggling to gain engagement to
-                                            consistently reaching
-                                            thousands of highly targeted users every day.
-                                            The automation tools are seamless, and the
-                                            results speak for themselves!</p>
+                                        <p>Thanks to GrowFans, we’re no longer guessing what works on Instagram. The
+                                            platform handles everything while we focus on content. Our reach has tripled
+                                            in just a few weeks — it’s amazing!</p>
                                         <div class="testimonial__user">
                                             <img src="assets/images/testimonial-user.jpg" alt="image">
                                             <div>
@@ -360,12 +357,9 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testimonial__content">
-                                        <p>GrowFans has completely transformed our
-                                            Instagram strategy. We went from struggling to gain engagement to
-                                            consistently reaching
-                                            thousands of highly targeted users every day.
-                                            The automation tools are seamless, and the
-                                            results speak for themselves!</p>
+                                        <p>I was skeptical at first, but GrowFans proved me wrong fast. The engagement
+                                            is real, the audience is targeted, and our brand has never looked better on
+                                            Instagram. It’s honestly the best investment we’ve made.</p>
                                         <div class="testimonial__user">
                                             <img src="assets/images/testimonial-user.jpg" alt="image">
                                             <div>
@@ -452,8 +446,22 @@
     <script src="assets/js/scrollreveal.min.js"></script>
     <!-- Swiper Js -->
     <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Nav Js -->
+    <script src="assets/js/jquery.nav.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#nav').onePageNav();
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#nav2').onePageNav();
+        });
+    </script>
 </body>
 
 </html>
