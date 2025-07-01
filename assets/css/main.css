@@ -160,6 +160,14 @@ button:focus {
     box-shadow: none;
 }
 
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
 /* ================================= Common Typography Css End =========================== */
 
 
@@ -2589,7 +2597,7 @@ a.btns {
     padding: 0 16px;
 }
 
-.report__form .common__btn{
+.report__form .common__btn {
     border-radius: 7px;
     padding: 18px 20px;
 }
@@ -2828,3 +2836,55 @@ a.btns {
 }
 
 /* ======================  Sidebar end Here  ======================*/
+
+
+/* ======================  Account Setting Start Here  ======================*/
+
+.collapse__btn.common__btn {
+    font-size: 12px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+}
+
+.collapse__btn.common__btn i {
+    margin-right: 5px;
+}
+
+.collapse__content {
+    background-color: hsl(var(--white) / 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.collapse__content h4 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.collapse__content ul {
+    list-style: disc;
+    padding-left: 32px;
+}
+
+.collapse__content ul li {
+    font-size: 14px;
+    color: hsl(var(--white) / 0.8);
+    margin-bottom: 2px;
+}
+
+.collapse__content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.collapse__content ul li a {
+    color: hsl(var(--base));
+}
+
+
+
+
+
+
+
+/* ======================  Account Setting end Here  ======================*/

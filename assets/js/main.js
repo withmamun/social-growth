@@ -396,6 +396,17 @@
   // ========================= Dashboard Home Chart Js End ===================
 
 
+  // ========================= Collapse Js Start ===================
+  document.querySelectorAll('.collapse__btn').forEach(btn => {
+    btn.addEventListener('click', function () {
+      const content = this.nextElementSibling;
+      content.classList.toggle('d-none');
+      content.classList.toggle('d-block');
+    });
+  });
+  // ========================= Collapse Js End ===================
+
+
   // ========================= Preloader Js Start =====================
   $(window).on('load', function () {
     $('.preloader').fadeOut();
